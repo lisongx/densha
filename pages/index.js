@@ -13,7 +13,10 @@ export default function Home() {
 
       <main className={styles.main}>
         <Player />
-        <img src="/densha.png" className={styles.densha} />
+
+        <div className={styles.image}>
+          <img src="/densha.png" className={styles.densha} />
+        </div>
       </main>
     </div>
   )

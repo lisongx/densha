@@ -1,7 +1,8 @@
-.container {
+.player {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    top: calc(50% - 240px);
+    width: 1200px;
     position: absolute;
-    top: 150px;
-    max-width: 1200px;
 }

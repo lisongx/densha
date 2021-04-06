@@ -5,13 +5,15 @@ import styles from '../styles/Player.module.css'
 
 
 function Player() {
-    return (<div className={styles.container}>
+    return (<div className={styles.player}>
         {
-            [0, 1, 2].map(() => {
+            [0, 1, 2].map((item, index) => {
                 return (<ReactPlayer
-                    url='https://www.youtube.com/watch?v=brPzGMDfMgk'
+                    url='https://youtu.be/wVeTxfvdLb4'
                     muted={true}
+                    width={380}
                     height={400}
+                    key={index}
                     controls={false}
                     loop={true}
                     config={{
@@ -20,10 +22,13 @@ function Player() {
                         },
                     }}
                     playing={true}
-                />)
+                />
+                )
             })
         }
     </div>)
 }
 
 export default Player
+
+
