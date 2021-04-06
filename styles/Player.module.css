@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 150px;
+    max-width: 1200px;
+}

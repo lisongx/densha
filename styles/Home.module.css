@@ -19,6 +19,7 @@
 
 .densha {
   max-width: 1200px;
+  z-index: 1;
 }
 
 .footer {
