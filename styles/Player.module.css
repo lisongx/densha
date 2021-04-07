@@ -1,8 +1,9 @@
 .player {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    top: calc(50% - 240px);
-    width: 1200px;
+    justify-content: space-around;
+    top: 95px;
+    width: 100%;
+    max-width: 1200px;
     position: absolute;
 }

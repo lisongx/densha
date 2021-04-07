@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-
 import Player from '../components/Player'
+
+import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -15,8 +15,8 @@ export default function Home() {
         <Player />
 
         <div className={styles.image}>
-          <img src="/densha.png" className={styles.densha} />
         </div>
+
       </main>
     </div>
   )
