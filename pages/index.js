@@ -20,7 +20,6 @@ export default function Home() {
         <div className={styles.led}>
         </div>
 
-
         <div className={styles.image}>
         </div>
 

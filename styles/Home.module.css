@@ -35,7 +35,7 @@
   max-width: 1200px;
   background-image: url("/led_mask_head.png");
   background-position: center top;
-  background-size: auto 85px;
+  background-size: auto 96px;
   background-repeat: no-repeat;
   height: 95vh;
   filter: opacity(0.15) drop-shadow(0 0 0 gray);
