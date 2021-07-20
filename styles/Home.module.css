@@ -38,7 +38,7 @@
   background-size: auto 85px;
   background-repeat: no-repeat;
   height: 95vh;
-  opacity: 0.35;
+  filter: opacity(0.15) drop-shadow(0 0 0 gray);
   min-height: 700px;
   position: absolute;
   top: 1rem;
