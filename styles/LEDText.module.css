@@ -1,0 +1,16 @@
+.ledtext {
+    margin-top: 42px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    font-weight: lighter;
+    font-family: Tahoma;
+    position: absolute;
+    letter-spacing: 1px;
+    top: 1rem;
+    color: rgba(246, 20, 46, 1);
+    text-shadow: 0 0 3px rgba(246, 20, 46, 1);
+    transform: rotate3d(1, 0, 0, -20deg);
+}

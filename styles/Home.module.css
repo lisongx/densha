@@ -30,6 +30,20 @@
 
 }
 
+.led {
+  width: 100%;
+  max-width: 1200px;
+  background-image: url("/led_mask_head.png");
+  background-position: center top;
+  background-size: auto 85px;
+  background-repeat: no-repeat;
+  height: 95vh;
+  opacity: 0.35;
+  min-height: 700px;
+  position: absolute;
+  top: 1rem;
+}
+
 @media (max-width: 1rem) {
   .image {
     max-width: 200%;

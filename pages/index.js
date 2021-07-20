@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Player from '../components/Player'
+import LEDText from '../components/LEDText'
 
 import styles from '../styles/Home.module.css'
 
@@ -13,6 +14,12 @@ export default function Home() {
 
       <main className={styles.main}>
         <Player />
+
+        <LEDText />
+
+        <div className={styles.led}>
+        </div>
+
 
         <div className={styles.image}>
         </div>
