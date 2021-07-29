@@ -3,15 +3,11 @@
     margin-top: calc(var(--densha-height) * 0.06);
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: calc(var(--densha-width) * 0.22);
+    justify-content: flex-start;
+    width: calc(var(--led-width));
     position: absolute;
     top: 0;
-    animation-duration: 10s;
-    animation-timing-function: linear;
-    animation-name: slideText;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
+    overflow: hidden;
 }
 
 .ledtext {
@@ -22,18 +18,26 @@
     font-weight: 100;
     font-family: sans-serif;
     letter-spacing: 1px;
-    transform: translateX(110%);
     color: rgba(246, 20, 46, 1);
     text-shadow: 0 0 3px rgba(246, 20, 46, 1);
     transform: rotate3d(1, 0, 0, -15deg);
+    /* Animation for the LED */
+    animation-duration: 20s;
+    animation-delay: 3s;
+    animation-timing-function: linear;
+    animation-name: slideText;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    transform: translateX(3%);
 }
 
 @keyframes slideText {
-    from {
-        transform: translateX(100%);
+    from, 10% {
+        transform: translateX(3%);
     }
 
-    to {
-        transform: translateX(-110%);
+    /* This is for a bit delay between each iteration */
+    90%, to {
+        transform: translateX(calc(-100% + var(--led-width)));
     }
 }
