@@ -9,6 +9,7 @@ body {
 
 :root {
   --densha-height: calc(min(max(800px, 95vh), 1200px));
+  --densha-width: calc(min(max(800px, 95vh), 1200px) * 1400/788);
 }
 
 a {
