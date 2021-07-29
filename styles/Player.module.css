@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    top: 95px;
+    top: calc(var(--densha-height) * 0.2);
     width: 100%;
     max-width: 1200px;
     position: absolute;

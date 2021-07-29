@@ -7,6 +7,10 @@ body {
   background-color: black;
 }
 
+:root {
+  --densha-height: calc(min(max(800px, 95vh), 1200px));
+}
+
 a {
   color: inherit;
   text-decoration: none;
