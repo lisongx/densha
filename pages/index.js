@@ -3,6 +3,7 @@ import Player from '../components/Player'
 import LEDText from '../components/LEDText'
 
 import styles from '../styles/Home.module.css'
+import classNames from "classnames"
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main className={classNames("crt", styles.main)}>
         <Player />
 
         <LEDText />
