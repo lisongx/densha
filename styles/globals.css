@@ -103,7 +103,6 @@ a {
   /* animation: flicker 2s infinite; */
 }
 
-
 .crt::before {
   content: " ";
   display: block;

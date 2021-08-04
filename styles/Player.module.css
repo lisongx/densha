@@ -1,9 +1,22 @@
 .player {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    top: calc(var(--densha-height) * 0.2);
+    height: calc(var(--densha-height) * 0.5);
+    top: calc(var(--densha-height) * 0.17);
+    justify-content: space-between;
     width: 100%;
     max-width: 1200px;
     position: absolute;
+}
+
+.player_item {
+    height: 100%;
+    width: calc(var(--densha-width) * 0.4);
+}
+
+.player_item:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
