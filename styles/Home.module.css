@@ -42,9 +42,8 @@
   background-position: center top;
   background-size: auto 96px;
   background-repeat: no-repeat;
-  height: 95vh;
+  height: var(--densha-height * 0.5);
   filter: opacity(0.15) drop-shadow(0 0 0 gray);
-  min-height: 700px;
   position: absolute;
   top: 0;
 }
