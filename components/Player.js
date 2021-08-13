@@ -16,7 +16,7 @@ function Player() {
     return (<div className={styles.player}>
         {
             renderItems.map((_, index) => {
-                return (<div className={styles.player_item}>
+                return (<div className={styles.player_item} key={index}>
                     <ReactPlayer
                         url='https://www.youtube.com/watch?v=wVeTxfvdLb4'
                         muted={true}

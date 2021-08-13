@@ -5,7 +5,7 @@
     top: calc(var(--densha-height) * 0.17);
     justify-content: space-between;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     position: absolute;
 }
 

@@ -14,16 +14,17 @@ export default function Home() {
       </Head>
 
       <main className={classNames("crt", styles.main)}>
-        <Player />
+        <section className={styles.densha}>
+          <Player />
 
-        <LEDText />
+          <LEDText />
 
-        <div className={styles.led}>
-        </div>
+          <div className={styles.led}>
+          </div>
 
-        <div className={styles.image}>
-        </div>
-
+          <div className={styles.image}>
+          </div>
+        </section>
       </main>
     </div>
   )
