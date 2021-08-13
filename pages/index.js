@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Densha Art</title>
+        <title>車 Che Gallery</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
